@@ -1,0 +1,48 @@
+
+body{
+    background-color: hsl(0, 0%, 86%);  
+}
+h1{
+    text-align: center;
+    color: #1d2142;
+}
+
+#site-container{
+    background-color:  hsl(0, 0%, 98%);
+    width: 800px;
+    margin: auto;
+    padding: 1rem;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1.1rem;
+}
+
+form div{
+    padding: .5rem;
+    display: flex;
+    justify-content:center;
+}
+input {
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label{
+    padding-right: 1.5rem;
+    font-weight: bold;
+    color: #525c80;
+}
+button{
+ width: 30%;
+    padding: 1%;
+    background-color: #1b1531;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+

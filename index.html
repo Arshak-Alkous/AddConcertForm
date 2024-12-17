@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Add Concert</title>
+    </head>
+    <body>
+        <h1>Add a new concert</h1>
+        <div id="site-container">
+            <form action="https://localhost:7171/adding concert" method="post">
+                <div >
+                    <label for="number">Concert number:</label>
+                    <input type="number" name="number" id="number">
+                </div>
+                <div>
+                    <label for="place">Concert place:</label>
+                    <input type="text" name="place" id="place">
+                </div>
+                <div>
+                    <label for="performer">Concert performer:</label>
+                    <input type="text" name="performer" id="performer">
+                </div>
+                <div>
+                    <label for="capacity">Concert capacity:</label>
+                    <input type="text" name="capacity" id="capacity">
+                </div>
+                <div>
+                    <label for="date">Concert date:</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div>
+                    <button type="submit">Add concert</button>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
